@@ -1,0 +1,30 @@
+.main-subscribe__img {
+    background-image: url("../images/plan/desktop/image-hero-blackcup.jpg");
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 450px;
+    border-radius: 15px;
+    background-size: cover;
+    margin-bottom: 120px;
+  }
+  
+  .main-subscribe__title {
+    width: 450px;
+    margin-left: 86px;
+    padding-top: 60px;
+  }
+  .main-subscribe__title-text {
+    color: #fefcf7;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+  }
+  .main-subscribe__title-description {
+    color: #fefcf7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+    margin-top: -20px;
+    padding-bottom: 56px;
+  }
