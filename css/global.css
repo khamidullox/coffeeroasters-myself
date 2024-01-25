@@ -108,12 +108,16 @@ main {
   gap: 33px;
 }
 .header__item-link , .footer__item-link{
-  color: #83888F;
+  color: var(--Grey);
 font-size: 12px;
 font-weight: 700;
 line-height: 15px;
 letter-spacing: 1px;
 text-transform: uppercase;
+
+&:hover{
+  color: var(--Dark-rey-Blue);
+}
 }
 .footer{
   width: 1280px;
@@ -121,8 +125,17 @@ height: 120px;
 flex-shrink: 0;
 background-color: #2C343E;
 align-items: center;
+.footer__item-link:hover{
+  color: #fff;
+}
+.main{
+  flex-grow: 1;
+}
 }
 .icon-soci{
   display: flex;
   gap: 20px;
 }
+.icon-soci__svg:hover{
+
+} 
