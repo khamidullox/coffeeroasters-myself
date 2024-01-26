@@ -5,12 +5,13 @@
   height: 550px;
   border-radius: 15px;
   background-size: cover;
+  margin-bottom: 200px;
 }
 
-.main__title{
-    width: 500px;
-    margin-left: 86px;
-    padding-top: 60px;
+.main__title {
+  width: 500px;
+  margin-left: 86px;
+  padding-top: 60px;
 }
 .main__title-text {
   color: #fefcf7;
@@ -28,18 +29,187 @@
   padding-bottom: 56px;
 }
 .main__title-btn {
-    color: #FEFCF7;
-    text-align: center;
-    font-family: "Fraunces 9pt";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 25px;
- 
+  color: #fefcf7;
+  text-align: center;
+  font-family: "Fraunces 9pt";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
 }
+.main__title-btn:hover{
+  background-color: #66D2CF;
+}
+
 .btn {
-    padding: 15px 30px 15px 30px;
-flex-shrink: 0;
-border-radius: 6px;
-background-color: #0E8784;
+  padding: 15px 30px 15px 30px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: #0e8784;
+}
+.main-collecton-home {
+  background-image: url("../images/home/desktop/Rectangle.png");
+  width: 1111px;
+  height: 196px;
+  flex-shrink: 0;
+  margin-bottom: 300px;
+  position: relative;
+}
+.main-collection-home__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.main-collection-home__img {
+  width: 255px;
+  height: 193px;
+  flex-shrink: 0;
+  margin-bottom: 70px;
+}
+.main-collection-home__item {
+  text-align: center;
+}
+.main-collection-home__item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main-collection-home__in-item {
+  color: var(--Dark-rey-Blue);
+}
+.main-collection-home::before {
+  content: "our collection";
+  position: absolute;
+  z-index: -1;
+  font-size: 150px;
+  margin-left: 90px;
+  font-family: var(--heading-font-family);
+  line-height: 72px;
+  margin-top: -50px;
+  opacity: 0.5;
+  display: block;
+  max-width: 1110px;
+  width: 100%;
+  color: #111;
+}
+.main-choose-home {
+  margin-bottom: 150px;
+}
+.main-choose-home__bg {
+  width: 1280px;
+  height: 600px;
+  background-color: var(--Dark-rey-Blue);
+  border-radius: 15px;
+  text-align: 15px;
+  margin-top: 150px;
+  margin-bottom: 300px;
+}
+.main-choose-home__title {
+  padding-top: 112px;
+  color: #fefcf7;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 32px;
+  line-height: 48px; /* 120% */
+}
+.main-choose-home__descriptin {
+  color: #fefcf7;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 480px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}
+.main-choose-home__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.main-choose-home__item {
+  width: 350px;
+  height: 382px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #0e8784;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.main-choose-home__item-img {
+  margin-top: 72px;
+}
+.main-choose-home__item-title {
+  margin-top: 50px;
+  color: #fff;
+}
+.main-choose-home__item-text {
+  text-align: center;
+  width: 255px;
+  color: #fefcf7;
+}
+.main-choose-home__img {
+  margin-top: 100px;
+}
+.main-work-home {
+padding-left: 165px;
+  
+}
+.maiin-work-home__title {
+  color: var(--Grey);
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+padding-bottom: 80px;
+}
+.line {
+  margin-bottom: 67px;
+}
+.line-span {
+}
+.main-work-home__list {
+  display: flex;
+  width: 1045px;
+  gap: 80px;
+  margin-bottom: 70px;
+}
+.main-work-home__item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+
+}
+.main-work-home__item-title {
+  color: var(--Pale-Orange);
+font-size: 72px;
+font-weight: 900;
+line-height: 72px; 
+}
+.main-work-home__item-description {
+  color: var(--Grey);
+
+font-size: 32px;
+
+font-weight: 900;
+line-height: 36px; 
+width: 255px;
+}
+.main-work-home__item-text {
+  color:var(--Dark-rey-Blue);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 285px;
+}
+.main-work-home__content{
+  margin-left: 145px;
+  margin-bottom: 50px;
 }
