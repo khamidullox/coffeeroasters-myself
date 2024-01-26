@@ -104,11 +104,15 @@
   margin-top: -180px;
 }
 .main__headquarters-static {
-    margin-bottom: 150px;
+  padding-left: 50px;
+}
+.main-about-headquarters{
+  margin-left: 50px;
 }
 .main-about__headquarters {
   color: #83888f;
   padding-bottom: 72px;
+  
 }
 .main-about__headquarters-list {
   display: flex;
